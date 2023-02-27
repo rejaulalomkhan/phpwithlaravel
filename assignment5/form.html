@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, Basic OOP, and Superglobal Variables in PHP</title>
+
+    <style>
+        .container{
+            width: 100%;
+            max-width: 540px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .container form div{
+            margin: 10px 0;
+        }
+        .container form input[type=submit]{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="process.php" method="post">
+            <div id="name">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Name">
+            </div>
+            <div id="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div id="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
