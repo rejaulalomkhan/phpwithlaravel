@@ -1,0 +1,206 @@
+/* ================================
+General
+================================ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.btn:hover{
+    background-color: #DC3545;
+    color: #fff;
+}
+.btn{
+    border-color: #DC3545 !important;
+}
+/* ================================
+Navbar
+================================ */
+header{
+    background-color: #F2F2F2 !important;
+}
+.topbar{
+    background-color: #DC3545;
+}
+.topbar a{
+    color: #FFF !important;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navbar{
+    padding: 0 !important;
+}
+.navbar-brand span{
+    color: #DC3545;
+}
+.nav-link{
+    color: #333 !important;
+    padding: 28px 8px;
+    margin: 0 5px;
+    transition: all .5px ease;
+}
+.nav-link:hover{
+    background-color: #DC3545;
+    color: #fff !important;
+    text-decoration: none;
+}
+/* ================================
+Hero Section
+================================ */
+#hero img{
+    height: 600px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #DC3545 !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #DC3545 !important;
+    border-radius: 50px;
+}
+/* ================================
+Solution Section
+================================ */
+#solution{
+    background-color: #F8F9FA;
+}
+/* ================================
+Business Section
+================================ */
+#business{
+    background-color: #DC3545;
+}
+#business .btn:hover{
+    background-color: #FFF;
+    color: #333 !important;
+}
+#business .btn{
+    border-color: #FFF !important;
+    color: #FFF;
+}
+/* ================================
+Client Section
+================================ */
+#client{
+    background-color: #F8F9FA;
+}
+.sponsor img{
+    width: 120px !important;
+    filter: grayscale(100);
+    cursor: pointer;
+}
+.sponsor img:hover{
+    filter: grayscale(0);
+}
+/* ================================
+Footer
+================================ */
+footer{
+    background-color: #343A40;
+    color: #bdbdbd;
+}
+ul li a{
+    color: #bdbdbd;
+}
+ul li a:hover{
+    color: #DC3545;
+    text-decoration: underline;
+}
+footer .social a{
+    color: #bdbdbd;
+}
+footer .social a:hover{
+    color: #DC3545;
+}
+/* -------------------
+Blog Page Style
+------------------- */
+#pageHead {
+    background-color: #DC3545;
+    color: #FFF;
+}
+#blog a{
+    color: #DC3545;
+}
+#blog .btn:hover{
+    background-color: #f1f1f1;
+    color: #888888;
+}
+#blog .btn{
+    background-color: #f1f1f1;
+    border-color: #333 !important;
+    color: #888888;
+}
+#blog .cat-date span{
+    color: #888888;
+}
+#blog .page-item.active .page-link{
+    color: #FFF;
+    background-color: #DC3545;
+    border-color: #DC3545 !important;
+}
+/* -------------------------
+About
+------------------------- */
+#feature .icon{
+    font-size: 3.5rem !important;
+}
+#team{
+    background-color: #F8F9FA;
+}
+#team p{
+    color: #DC3545;
+}
+/* -------------------------
+Services
+------------------------- */
+#product{
+    background-color: #F8F9FA;
+}
+#deal{
+    background-color: #DC3545;
+}
+#deal h4::after{
+    content: '|';
+    margin: 0 35px;
+}
+#deal .btn{
+    background: transparent;
+    color: #fff;
+    border-color: #fff !important;
+}
+#deal .btn:hover{
+    background-color: #fff;
+    color: #333;
+}
+/* -------------------------
+Contact
+------------------------- */
+#contact-form form .btn{
+    background-color: #DC3545 !important;
+    color: #FFF;
+}
+#contact-form form .btn:hover{
+    background-color: #fff !important;
+    border-color: #DC3545;
+    color: #333;
+}
+#contact-info .icon{
+    font-size: 34px;
+    padding: 32px;
+    background: #ebebeb;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    color: #DC3545;
+}

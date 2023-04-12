@@ -1,0 +1,106 @@
+/* ================================
+Mobile Device
+================================ */
+@media only screen and (max-width: 600px) { 
+    #hero img{
+        height: 300px;
+    }
+    #solution p{
+        width: 100% !important;
+    }
+    #consulting .team{
+        margin-top: 10px;
+        text-align: center;
+    }
+    #consulting h2,
+    #consulting p{
+        width: 100% !important;
+    }
+    #business{
+        text-align: center;
+    }
+    #industry{
+        text-align: center;
+    }
+    #industry h2,
+    #industry p{
+        width: 100% !important;
+    }
+    footer{
+        text-align: center;
+    }
+    footer .reach,
+    footer .site,
+    footer .quick,
+    footer .follow{
+        margin-top: 10px;
+    }
+    footer .reach h5,
+    footer .site h5,
+    footer .quick h5,
+    footer .follow h5{
+        margin-bottom: 5px !important;
+    }
+    footer .copyright{
+        margin-top: 25px;
+    }
+    #solution,#consulting,#business,#industry,#client{
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    #service h2,
+    #service p,
+    #service img{
+        width: 100% !important;
+    }
+    #deal h4::after{
+        display: none;
+    }
+    #award p{
+        width: 100% !important;
+    }
+    #award img{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+}
+/* ================================
+Tablet Device
+================================ */
+@media screen and (max-width: 992px) {
+    #service .card{
+        padding: 1rem !important;
+    }
+    #solution p{
+        width: 100% !important;
+    }
+    #consulting h2,
+    #consulting p,
+    #consulting img{
+        width: 100% !important;
+    }
+    #industry h2,
+    #industry p,
+    #industry img{
+        width: 100% !important;
+    }
+    #service h2,
+    #service p,
+    #service img{
+        width: 100% !important;
+    }
+    #deal h4::after{
+        display: none;
+    }
+    #award p{
+        width: 100% !important;
+    }
+    #award img{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    #contact-info p,
+    #contact-form p{
+        width: 100% !important;
+    }
+}
