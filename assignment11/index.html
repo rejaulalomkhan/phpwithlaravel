@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        table {
+          border-collapse: collapse;
+          margin: 20px auto;
+        }
+  
+        th,
+        td {
+          border: 1px solid black;
+          padding: 10px;
+          text-align: center;
+        }
+  
+        th {
+          background-color: #f2f2f2;
+          font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multiplication Table</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Number</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+          <th>5</th>
+          <th>6</th>
+          <th>7</th>
+          <th>8</th>
+          <th>9</th>
+          <th>10</th>
+        </tr>
+      </thead>
+      <tbody id="multiplication-table-body"></tbody>
+    </table>
+    <script>
+        let numStr = prompt("Enter a number:");
+        let num = parseInt(numStr); // convert string to integer
+
+        function multiplicationTable(num){
+            let tableBody = document.getElementById("multiplication-table-body");
+            let row = document.createElement("tr");
+            let numCell = document.createElement("td");
+            numCell.textContent = num;
+            row.appendChild(numCell);
+
+            for(let i = 1; i <= 10; i++){
+                let product = num * i;
+                let productCell = document.createElement("td");
+                productCell.textContent = product;
+                row.appendChild(productCell);
+
+                console.log("num " + num + " iteration = " + product);
+            }
+            tableBody.appendChild(row);
+        }
+        multiplicationTable(num);
+    </script>
+</body>
+</html>
